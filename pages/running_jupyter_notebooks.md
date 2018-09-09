@@ -53,14 +53,6 @@ $ conda install -c conda-forge ipykernel nb_conda_kernels
 **Note: For `nb_conda_kernels` to see your other conda environments, you need to install `ipykernel` in those conda environment.**
 
 
-## Installing a general geohack vector and raster conda environment
-
-Go to the `tutorial_contents` folder and run the command below.
-
-```bash
-$ conda env create -f ghw_environment.yml
-```
-
-This will install a conda environment named `geohackenv`. You can use this environment for your vector and raster geospatial work. 
+## Installing tutorials conda environments
 
 If you would like to install the conda environment for each tutorial separately, you can go into the tutorial's subfolder and create the environment from `environment.yml` file.
